@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    border-color: rgb(85, 141, 0); 
+    text-align: center;
+}
+.hang1{
+    color: white;
+    background-color: green;
+    
+}
+.hang2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 255, 206);
+   
+}
+.VN{
+    color: red;
+    
+}

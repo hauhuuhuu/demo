@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Hữu Hậu PS28293</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label class="ten" for="">Họ và tên</label>
+            <br>
+            <input type="text" class="control" tabindex="1">
+        </div>
+        <div class="form-group">
+            <fieldset>
+            <legend class="ten">Giới tính</legend><br>
+            <input type="radio"><span class="ten">Nam</span>
+            <input type="radio"><span class="ten">Nữ</span>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label class="ten" for="">Ngày sinh</label><br>
+            <input type="date">
+        </div>
+        <div class="form-group">
+            <label class="ten" for="">Điểm:</label><br>
+            <input class="control" type="number" min="0" max="10" step="0.25">
+        </div>
+        <div class="form-group">
+            <label class="ten" >Nghề nghiệp</label><br>
+            <input class="control" type="list" list="die" >
+            <datalist>
+                <option value="">Bác sĩ</option>
+                <option value="">Giáo viên</option>
+                <option value="">Y tá</option> 
+                <option value="">IT</option>
+                <option value="">Công nhân</option>  
+            </datalist>
+            
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend class="ten">Sở thích</legend><br>
+                <input type="checkbox"> <span class="ten">Thể thao</span>
+                <input type="checkbox"> <span class="ten">Du lịch</span>
+                <input type="checkbox"> <span class="ten">Âm nhạc</span>
+                <input type="checkbox"> <span class="ten">Ẩm thực</span>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label class="ten" for="">Ghi chú</label><br>
+            <textarea name="" id="" cols="80" rows="10" tabindex="2"></textarea>
+        </div>
+        <div class="form-group">
+            <button class="button" tabindex="3">Đăng kí</button>
+            <button class="button" tabindex="4">Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>
